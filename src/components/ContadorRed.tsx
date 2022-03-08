@@ -39,8 +39,9 @@ export const ContadorRed = () => {
   return (
     <>
       <div className="mt-5">
-        <h3>Contador : {contador}</h3>
-        <hr />
+        <h3>Contador: useReducer</h3>
+        <h4 className="my-3">Contador : {contador}</h4>
+
         <button
           className="m-2 btn btn-outline-info my-3"
           onClick={() => dispatch({ type: 'incrementar' })}

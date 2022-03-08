@@ -4,6 +4,7 @@ import { TimerPadre } from './components/TimerPadre'
 import { Usuario } from './components/Usuario'
 
 import { ContadorRed } from './components/ContadorRed'
+import { Formulario } from './components/Formulario'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Usuario />
       <TimerPadre />
       <ContadorRed />
+      <Formulario />
     </>
   )
 }
